@@ -1,5 +1,5 @@
 ---
-title: EPUBTest en español: Evaluación de Azardi v 43.1 (Windows 10)
+title: Azardi v 43.1 (Windows 10) / EcoBraille-80 con NVDA 2018.1.1
 layout: post
 ---
 
