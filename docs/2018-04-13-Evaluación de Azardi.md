@@ -1,0 +1,103 @@
+---
+title: EPUBTest en español: Evaluación de Azardi v 43.1 (Windows 10)
+layout: post
+---
+
+<footer>Viernes, 14 de abril de 2018</footer>
+
+### Azardi v 43.1 (Windows 10) / EcoBraille-80 con NVDA 2018.1.1 ###
+
+- Tipo de evaluación: Accesibilidad
+- Nombre: Azardi
+- Versión: 43.1
+- Sistema operativo: Windows
+- Versión del sistema operativo: 10
+- Tecnología de apoyo: EcoBraille-80 con NVDA 2018.1.1
+- Características de la tecnología de apoyo: Teclado, Lector de pantalla/síntesis de voz, Braille
+- Última actualización: 12 de abril de 2018, 8:38 p.m.
+- Notas: Braille probado en Windows 7 con Ecobraille-80
+
+#### Reseñas ####
+
+##### Reseña breve #####
+
+Solo se han efectuado test sin contenido visual, con lector de pantalla y pantalla de braille efímero
+
+##### Reseña extensa #####
+
+Esta aplicación puede utilizarse para leer libros que contengan audio o Javascript. No tiene soporte para enlaces internos, por lo que la navegación entre notas y el texto principal, o el desplazamiento a subsecciones o números de páginas impresas, podría no llevarse a cabo adecuadamente.
+
+Los libros pueden añadirse a la "librería" desde la aplicación o mediante "carga externa" desde el explorador de Windows.
+
+Los botones de la barra de herramientas se presentan en modo exploración, y, cuando un libro está abierto, el capítulo actual se mostrará en un marco a continuación (pulsa <kbd>m</kbd> para localizarlo desde la barra de herramientas). Pulsa <kbd>NVDA+f2</kbd> y luego <kbd>shift+avpag</kbd> o <kbd>shift+repag</kbd> (<kbd>NVDA+shift+avpag</kbd> y <kbd>NVDA+shift+repag</kbd> podrían también funcionar sin pulsar <kbd>NVDA+f2</kbd>), para moverte entre capítulos, o el botón Contenido para usar la tabla de contenido. <kbd>F1</kbd> muestra la ayuda de Azardi, que contiene órdenes útiles, también mostradas en modo exploración; pulsa <kbd>alt+f4</kbd> para cerrar esa ventana y volver atrás.
+
+Desde la lista de libros disponibles en la "librería" (presentada como un árbol), <kbd>Intro</kbd> y la tecla <kbd>Aplicaciones</kbd> también se encuentran disponibles para realizar acciones sobre el libro seleccionado.
+
+#### Resultados sobre características disponibles ####
+
+- Funciones básicas: 53.8%
+- Lectura no visual: 92.3%
+
+#### Funciones básicas ####
+
+##### Funciones esenciales #####
+
+Resultado: 4/4
+
+- Accesibilidad del sistema operativo: Disponible
+- Activación del sistema de lectura: Disponible
+- Abrir contenido: Disponible
+	- Notas: Los libros se pueden abrir desde la "librería" de la aplicación, (<kbd>alt+l</kbd> y luego <kbd>alt+a), o mediante carga externa desde el explorador de Windows, usando el menú contextual o estableciendo Azardi como el programa por defecto para abrir ficheros ePUB.
+- Listar documentos: Disponible
+	- Notas: Pulsa <kbd>alt+l</kbd> o accede a la "librería" mostrada en modo exploración. Los libros se pueden buscar por título, autor, etc. Usa <kbd>Intro</kbd> o el menú contextual de Windows (tecla )<kbd>Aplicaciones</kbd>) para realizar acciones cuando hayas seleccionado un libro. Usa la característica Index para buscar en múltiples libros.
+
+##### Navegación #####
+
+Resultado: 2/5
+
+- Navegar por capítulos mediante la tabla de contenido: No disponible
+	- Notas: El cursor se sitúa en la ventana que contiene el documento correspondiente, no en la subsección deseada.
+- Navegar en el contenido por páginas: No disponible
+	- No es posible navegar a saltos de páginas impresas mediante el teclado.
+	- Navegar por número de páginas redimensionables: Disponible
+	- Leer información de navegación: No disponible
+	- Notas: Usa el diálogo Lista de Elementos (<kbd>NVDA+f7</kbd>) y selecciona el botón de opción Encabezados para averiguar la sección actual, y <kbd>Escape</kbd> para volver a la posición anterior dentro del libro. Ni el número de página ni el porcentaje están disponibles.
+- Realizar una búsqueda, revisar los resultados: Disponible
+	- Para buscar, se necesita indexar los libros previamente. Pulsa <kbd>alt+l</kbd>, luego el botón Search. Teclea texto, luego <kbd>Intro</kbd>. Revisa los resultados y pulsa <kbd>Enter</kbd> sobre el número correspondiente para poner el foco en el documento que contiene el resultado. Usa <kbd>NVDA+control+f</kbd> para encontrar el texto en la posición exacta.
+	
+	##### Resaltados, notas y marcadores #####
+	
+	Resultado: 1/4
+	
+	- Añadir un marcador o resaltado: No disponible
+	- Notas: No es posible añadir marcadores o resaltados mediante el teclado.
+- Revisar y navegar por marcadores o resaltados: Disponible
+	- La lista de resaltados se puede encontrar desde la pestaña Contenido.
+- Añadir una nota: No disponible
+	- Notas: Esto podría llevarse a cabo seleccionando texto mediante órdenes de ratón de NVDA, pero el procedimiento no resulta práctico.
+- Revisar y navegar por notas: No disponible
+	- Notas: Aunque se puede acceder a las notas, estas se muestran en un documento diferente y, al pulsar <kbdIntro</kbd> sobre una nota, el cursor no se sitúa en la posición correcta.
+	
+#### Lectura no visual ####
+	
+	Resultado: 12/13
+	
+- Empezar a leer desde aquí: Disponible
+- Detener y continuar la lectura: Disponible
+- Orden adecuado de lectura: Disponible
+- Lectura de texto alternativo de imagen: Disponible
+- cambiar velocidad de lectura: Disponible
+- Pausas en la lectura por síntesis de voz: Disponible
+- Navegación en tabla: Disponible
+- Navegación entre enlaces internos: No disponible
+- Desplazarse al siguiente elemento de bloque: Disponible
+- Navegar por caracteres: Disponible
+- Navegar por palabras: Disponible
+- Navegar por líneas: Disponible
+- Navegar en el contenido por encabezados: Disponible
+
+### Referencias (en inglés) ###
+
+
+- [Evaluación en epubtest.org](http://epubtest.org/evaluation/463/)
+- [Web de Azardi](http://azardi.infogridpacific.com/)
