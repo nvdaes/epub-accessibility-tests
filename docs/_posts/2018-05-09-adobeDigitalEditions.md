@@ -1,5 +1,5 @@
 ---
-title: Adobe Digital Editions v 45 (Windows 10) / EcoBraille-80 con NVDA 2018.1.1
+title: Adobe Digital Editions v 4.5.6.177.148 (Windows Windows 10) / EcoBraille Plus with NVDA 2018.1.1
 layout: post
 permalink: /ade/
 ---
