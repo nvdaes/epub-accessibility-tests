@@ -109,8 +109,8 @@ Resultado: 6/8
 - El color de énfasis o resaltado se puede cambiar: No disponible
 	- Notas: No pude encontrar ninguna opción para cambiar esto.
 
-### Referencias (en inglés) ###
+### Referencias ###
 
-- [Evaluación en epubtest.org](http://epubtest.org/evaluation/456/)
-[Kindle en la guía de NVDA](https://nvdaes.github.io/userGuide.html#Kindle)
-- [Descargar e instalar la última versión de Kindle para PC](https://www.amazon.es/gp/help/customer/display.html?nodeId=201245960)
+- [Evaluación en epubtest.org](http://epubtest.org/evaluation/456/) (en inglés)
+- [Descargar e instalar la última versión de Kindle para PC](https://www.amazon.es/gp/help/customer/display.html?nodeId=201245960) (en inglés)
+- [Kindle en la guía de NVDA](https://nvdaes.github.io/userGuide.html#Kindle)
