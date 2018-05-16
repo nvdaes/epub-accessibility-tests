@@ -112,5 +112,5 @@ Resultado: 6/8
 ### Referencias ###
 
 - [Evaluación en epubtest.org](http://epubtest.org/evaluation/456/) (en inglés)
-- [Descargar e instalar la última versión de Kindle para PC](https://www.amazon.es/gp/help/customer/display.html?nodeId=201245960) (en inglés)
+- [Descargar e instalar la última versión de Kindle para PC](https://www.amazon.es/gp/help/customer/display.html?nodeId=201245960)
 - [Kindle en la guía de NVDA](https://nvdaes.github.io/userGuide.html#Kindle)
