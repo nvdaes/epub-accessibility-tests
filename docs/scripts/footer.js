@@ -1,3 +1,9 @@
+// Info about tests
+
+var main = document.getElementById("main");
+var aside = document.createElement("ASIDE");
+
+// Last update
 var months = ["enero", "febrero", "marzo",
 "abril", "mayo", "junio",
 "julio", "agosto", "septiembre",

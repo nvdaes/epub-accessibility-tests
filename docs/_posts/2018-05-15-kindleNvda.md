@@ -15,7 +15,7 @@ permalink: /kindlenvda/
 - Versión del sistema operativo: 10
 - Tecnología de apoyo: NVDA 2018.1.1
 - Características de la tecnología de apoyo: Teclado, Lector de pantalla/síntesis de voz
-- Última actualización: 14 de mayo de 2018, 2:17 p.m.
+- Última actualización: 19 de junio de 2018, 3:59 p.m.
 - Notas: Probada la versión 1.23.1
 
 #### Reseñas ####
@@ -24,16 +24,16 @@ permalink: /kindlenvda/
 
 Solo se han efectuado test sin contenido visual. La aplicación no admite contenido multimedia sincronizado
 
-(Evaluación traducida a español, previa consulta a Josh Andrews)
+(Evaluación traducida a español, previa consulta a Josh Andrews. Soporte de tablas probado en NVDA 2018.2.)
 
 ##### Reseña extensa #####
 
-Aunque gestos de exploración como el de desplazamiento por encabezados y los de navegación en tablas no funcionan, de todos modos pude llevar a cabo la lectura en el texto sin mayores dificultades.
+Aunque gestos de exploración como los de desplazamiento por encabezados y navegación en tablas no funcionan, de todos modos pude llevar a cabo la lectura en el texto sin mayores dificultades.
 
 #### Resultados sobre características disponibles ####
 
 - Funciones básicas: 84.6%
-- Lectura no visual: 76.9%
+- Lectura no visual: 84.6%
 - Lectura en voz alta: 75%
 
 #### Funciones básicas ####
@@ -72,7 +72,7 @@ Resultado: 4/4
 
 #### Lectura no visual ####
 
-Resultado: 10/13
+Resultado: 11/13
 
 - Empezar a leer desde aquí: Disponible
 - Detener y continuar la lectura: Disponible
@@ -82,7 +82,7 @@ Resultado: 10/13
 - cambiar velocidad de lectura: Disponible
 - Pausas en la lectura por síntesis de voz: Disponible
 - Navegación en tabla: No disponible
-	- Notas: No pude hacer funcionar los gestos de NVDA para navegar en tablas. Cada vez que intentaba moverme por columnas y filas, se me informaba de que no estaba en una tabla.
+	- Notas: Puedo navegar por columnas, filas y celdas, pero el comando de NVDA para navegar por tablas no está disponible.
 - Navegación entre enlaces internos: No disponible
 	- Notas: No es posible desplazarse a un enlace y activarlo con NVDA.
 - Desplazarse al siguiente elemento de bloque: Disponible
