@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 name: epub-accessibility-tests en español
-description: Documentación en español sobre el proyecto epub-accessibility-tests del consorcio DAISY
+description: Documentación en español sobre el [proyecto epub-accessibility-tests del consorcio DAISY](https://github.com/daisy/epub-accessibility-tests)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
