@@ -4,8 +4,8 @@ install:
   7z epubcheck-4.1.1.zip
   dir epubcheck 4.1.1
 
-build_script:
-- cmd: epubsave.bat
+#build_script:
+#- cmd: epubsave.bat
 
 artifacts:
 - path: '*.nvda-addon'
