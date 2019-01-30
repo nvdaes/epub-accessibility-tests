@@ -1,7 +1,7 @@
 version: '{branch}-{build}'
 install:
 - appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip
-  7z epubcheck-4.1.1.zip
+  ps: 7z epubcheck-4.1.1.zip
 build_script:
 - cmd: epubsave.bat
 
