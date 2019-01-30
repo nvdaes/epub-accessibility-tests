@@ -2,6 +2,9 @@ version: '{branch}-{build}'
 install:
 - appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip
 - ps: 7z x epubcheck-4.1.1.zip
+- appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.ziphttps://nodejs.org/dist/v10.15.1/node-v10.15.1-x64.msi
+- node-v10.15.1-x64.msi
+
 build_script:
 - cmd: epubsave.bat
 
