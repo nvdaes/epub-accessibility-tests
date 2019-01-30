@@ -1,0 +1,30 @@
+version: '{branch}-{build}'
+
+
+install:
+  appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip
+  7z x epubcheck-4.1.1.zip
+
+build_script:
+- cmd: epubsave.bat
+
+artifacts:
+- path: '*\*.epub'
+  name: epub
+  type: WebDeployPackage
+  
+before_deploy:
+- ps: $env:REPO_NAME =  $env:APPVEYOR_REPO_NAME.Substring($env:APPVEYOR_REPO_NAME.IndexOf('/') + 1)
+
+deploy:
+- provider: GitHub
+  tag: $(APPVEYOR_REPO_TAG_NAME)
+  release: Release $(APPVEYOR_REPO_TAG_NAME)
+  description: test
+
+  auth_token:
+    secure: 3yxF2EQ/wfLKNEobcRfdNL6srjXjoMdRa/LSQ7z2PJNqOL3IEyiFtlnxxHeIQskH
+  artifact: epub
+  
+  on:
+    appveyor_repo_tag: true
