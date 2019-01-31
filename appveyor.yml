@@ -8,9 +8,11 @@ install:
 - ps: 7z x epubcheck-4.1.1.zip
 - ps: Install-Product node $env:nodejs_version
 - npm install @daisy/ace -g
+- java -jar epubcheck-4.1.1/epubcheck.jar "content\epub30-test-0300" -mode exp -save --failonwarnings
+- ace --outdir ace-report --verbose "content\epub30-test-0300.epub"
 
-build_script:
-- cmd: epubsave.bat
+#build_script:
+#- cmd: epubsave.bat
 
 artifacts:
 - path: 'content\epub30-test-0300.epub'
