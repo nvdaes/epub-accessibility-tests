@@ -1,7 +1,7 @@
 version: '{branch}-{build}'
 
 environment:
-  - nodejs_version: "10"
+  nodejs_version: "10"
   
 install:
 - appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip
