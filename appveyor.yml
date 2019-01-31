@@ -1,18 +1,16 @@
 version: '{branch}-{build}'
 
 environment: 
-  nodejs_version: "8"
+  nodejs_version: "10.15.1"
 
 install:
 - appveyor DownloadFile https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip
 - ps: 7z x epubcheck-4.1.1.zip
 - ps: Install-Product node $env:nodejs_version
 - npm install @daisy/ace -g
-- java -jar epubcheck-4.1.1/epubcheck.jar "content\epub30-test-0300" -mode exp -save --failonwarnings
-- ace --outdir ace-report --verbose "content\epub30-test-0300.epub"
 
-#build_script:
-#- cmd: epubsave.bat
+build_script:
+- cmd: epubsave.bat
 
 artifacts:
 - path: 'content\epub30-test-0300.epub'
@@ -30,9 +28,9 @@ deploy:
   tag: $(APPVEYOR_REPO_TAG_NAME)
   release: Release $(APPVEYOR_REPO_TAG_NAME)
   description: This is the release $(APPVEYOR_REPO_TAG_NAME) of the $(REPO_NAME) project built and uploaded to GitHub using Appveyor.
-
   auth_token:
     secure: 3yxF2EQ/wfLKNEobcRfdNL6srjXjoMdRa/LSQ7z2PJNqOL3IEyiFtlnxxHeIQskH
   artifact: epub, report
+  draft: true
   on:
     appveyor_repo_tag: true
