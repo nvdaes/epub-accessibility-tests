@@ -1,0 +1,23 @@
+Resumen sobre características de accesibilidad en apps y programas para leer ePUB
+
+Nota: La última actualización de este artículo es posterior a la repetición de los test de accesibilidad realizada a principios de 2019.
+
+Introducción
+
+Con la llegada de la publicación digital y los libros electrónicos, ahora las personas con discapacidades de acceso a la lectura tienen ocasión de disfrutar de un número sin precedentes de libros y otras publicaciones. Los editores están incrementando la adopción de estándares, técnicas y herramientas para garantizar que sus títulos sean accesibles. A un libro digital se accede mediante un programa de lectura, que se emplea para abrir, leer, y navegar por el contenido. Es importante que tanto particulares como organizaciones puedan elegir sistemas de lectura que ofrezcan las características de accesibilidad que necesitan. Las características requeridas serán distintas según las personas, y podrían incluir la posibilidad de usar un lector de pantalla, para cambiar el aspecto visual del contenido, una función de lectura en voz alta, una función para ampliar imágenes, y así sucesivamente.
+
+Aquí presentamos un resumen de aplicaciones populares para leer ePUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad, llevadas a cabo mediante un protocolo desarrollado por y con personas con discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre este protocolo. Los resultados de los test que se enumeran a continuación eran adecuados cuando se publicó este artículo, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o por la publicación que se esté leyendo. Las apps están en constqante cambio, y los desarrolladores mejoran las características basándose en nuestros test. Siempre puedes leer las últimas revisiones en 
+http://epubtest.org/testsuite/accessibility/
+
+Amazon Kindle
+
+Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de plataformas de ordenadores y teléfonos inteligentes, incluyendo las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y Fire.
+Lo que gustó a nuestros evaluadores: Las voces en las Fire Tablets tienen un sonido de calidad y natural. Puedes añadir fácilmente tus propios documentos a la app enviándolos por correo electrónico. Los ajustes visuales se admiten bien en todas las plataformas. La app tiene características útiles como la “word wise”, que explica las palabras más difíciles del libro. En algunos libros, es posible combinar el ebook y el audiolibro, para tener una experiencia de lectura sincronizada (es necesario comprarlos). En la tienda de libros Kindle, para cada título se indica si se admite o no el uso de lector de pantalla.
+Para tener en cuenta: La navegación por encabezados no está disponible para VoiceOver (iOS) ni para TalkBack (Android). La navegación en tablas es  deficiente. Las descripciones de imágenes no se indican en VoiceOver ni en TalkBack. La app para Android no incorpora función propia de lectura en voz alta, y en iOS, la función de verbalización de pantalla no enfatiza visualmente las palabras que se van leyendo. No es fácil que puedas cargar en la aplicación tus propias obras en formato ePUB.
+
+Adobe Digital Editions
+
+El software de lectura de Adobe es muy usado para leer ficheros pdf, pero también lee ePUB. Está disponible en la mayoría de plataformas para teléfonos y ordenadores. A menudo lo recomiendan bibliotecas públicas y académicas, porque las obras que se prestan mediante sus sistemas utilizan la protección contra copia de Adobe.
+Lo que gustó a nuestros evaluadores: Resulta oportuno poder leer pdf y ePUB en la misma app.
+Para tener en cuenta: Es difícil recomendar este programa. Nuestros evaluadores encontraron que Digital Editions, en Windows podría ser inestable y dar problemas con los libros más grandes. También se informa de problemas de fiabilidad en iOS y Android. La navegación por la tabla de contenido con lector de pantalla no fue satisfactoria. No hay ninguna función para cambiar los colores de la pantalla ni la fuente, y no dispone de lectura en voz alta propia, por lo que es menos atractivo para personas con diferencias de aprendizaje como la dislexia.
+
